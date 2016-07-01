@@ -1,0 +1,143 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+.row-footer{
+    background-color: lightgray;
+    margin-top:0px auto;
+    padding: 20px 0px 20px 0px;
+    min-height: 200px;
+}
+
+.row-content {
+    margin:0px auto;
+    margin-bottom: 20px;
+    padding: 0px 0px 0px 0px;
+    min-height: 400px;
+}
+
+.jumbotron {
+    margin:0px;
+    background: #121212 ;
+    color:#eeeeee;
+}
+
+p {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.about {
+    background-image: url("../img/back2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.about-text {
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 0 2em;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.project {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.project-1 {
+    background-image: url("../img/back1.jpg");
+}
+.project-2 {
+    background-image: url("../img/datamining.jpg");
+}
+.project-3 {
+    background-image: url("../img/MLseries.png");
+}
+.project-4 {
+    background-image: url("../img/neural.jpg");
+}
+.project-5 {
+    background-image: url("../img/cube.jpg");
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    font-family: Tahoma;
+}
+
+.project-box-1 , .project-box-2, .project-box-3, .project-box-4, .project-box-5{
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   box-shadow: 0px 0px 1em;
+   
+   margin: 0px auto;
+   padding: 0px auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.project-box-1 {
+    background-image: url("../img/back1.jpg");
+}
+
+.project-box-2 {
+    background-image: url("../img/datamining.jpg");
+}
+
+.project-box-3 {
+    background-image: url("../img/MLseries.png");
+}
+
+.project-box-4 {
+    background-image: url("../img/neural.jpg");
+}
+
+.project-box-5 {
+    background-image: url("../img/cube.jpg");
+}
+.project-box-1 a, .project-box-2 a , .project-box-3 a , .project-box-4  a , .project-box-5 a {
+    display: block;
+    text-decoration: none;
+    color: #152a23;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.project-box-1 a:hover, .project-box-2 a:hover, .project-box-3 a:hover, .project-box-4 a:hover, .project-box-5 a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fefefe;
+}
+
+.project-box-header {
+    padding: 10px;
+}
+
+.project-box-content{
+     height: 200px;
+    overflow: auto;
+    text-align: justify;
+    padding: 10px;
+    text-align: center;
+}
+
+.fa1 {
+    padding: 10px;
+}
+
+#about1 {
+            display: none;
+        }
+
+#target-1, #target-2, #target-3, #target-4, #target-5 {
+            display: none;
+        }
